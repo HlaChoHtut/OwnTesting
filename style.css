@@ -25,6 +25,50 @@ a {
     line-height: 20px;
 }
 
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    margin-left: 2em;
+    max-width: 300px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 1.5em 1em 2em;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: -1;
+}
+
+.card span {
+    background-color: rgba(243, 25, 72, 0.952);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin-top: -3em;
+    top: 5%;
+    left: 10%;
+    border-radius: 50px;
+}
+
+.card-title {
+    margin-bottom: .5em;
+
+}
+
+.card a {
+    display: inline-block;
+    color: white;
+    background-color: rgba(243, 25, 72, 0.952);
+    padding: .5em 1.2em;
+    margin-top: .8em;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
 .inputField {
     display: block;
 }
