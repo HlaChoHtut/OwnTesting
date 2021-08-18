@@ -24,3 +24,37 @@ a {
     font-size: 15px;
     line-height: 20px;
 }
+
+.inputField {
+    display: block;
+}
+
+label {
+    display: block;
+    margin: 1em 0 0 2em;
+    font-weight: bold;
+}
+
+input {
+    padding: 1em;
+    margin-left: 2em;
+    width: 300px;
+}
+
+button {
+    display: block;
+    padding: .5em 1em;
+    margin-left: 1.5em;
+    margin-top: 1em;
+    color: white;
+    background-color: rgba(243, 25, 72, 0.952);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+button:hover {
+    transition: all 100;
+    color: #000;
+}
